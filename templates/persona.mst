@@ -1,0 +1,10 @@
+{{#personas}}
+<li class="collection-item avatar">
+    <i class="material-icons circle">person</i>
+    <span class="title">{{nombre}} {{apellido}}</span>
+    <p>{{cuit}}</p>
+    <a href="#!" class="secondary-content">
+        <i class="material-icons">create</i>
+    </a>
+</li>
+{{/personas}}

@@ -1,0 +1,16 @@
+{
+  "name": "marcelolabure",
+  "version": "1.0.0",
+  "description": "Marecelo lsita de cuits",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Rodrigo Vazquez",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.1",
+    "mustache": "^2.3.0",
+    "papaparse": "^4.4.0"
+  }
+}

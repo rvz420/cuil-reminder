@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="css/materialicons.css" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <title>Agregar cliente</title>
+</head>
+
+<body>
+    <form class="red lighten-3">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col s8 offset-s2">
+                    <div class="card-panel grey lighten-3">
+                        <h5>Agregar cliente</h5>
+                        <br>
+                        <div class="input-field">
+                            <input type="text" placeholder="Nombre" id="name" required>
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Apellido" id="lastname" required>
+                            <label for="lastname">Apellido</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="number" placeholder="Cuit" id="cuit" required>
+                            <label for="cuit">Cuit</label>
+                        </div>
+                        <input type="submit" value="Agregar" class="btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/addWindow.js"></script>
+</body>
+
+</html>

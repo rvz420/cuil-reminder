@@ -1,0 +1,11 @@
+.input-field input[type="search"] ~ .mdi-navigation-close,
+.input-field input[type="search"] ~ .material-icons {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  -webkit-transition: 0.3s color;
+  transition: 0.3s color;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="css/materialicons.css" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lista de clientes</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav id="navBar">
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo left">Lista</a>
+                <ul class="right">
+                    <li>
+                        <a id="search" href="#">
+                            <i class="material-icons">search</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="add" class="modal-trigger" href="#add">
+                            <i class="material-icons">add</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--List-->
+    <section class="section grey lighten-4">
+        <div class="container">
+            <ul id="personas" class="collection">
+                <!--Load csv data-->
+            </ul>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="page-footer white-text center">
+        <p class="flow-text">Rodrigo Vazquez &copy; 2018</p>
+        <br>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/mainWindow.js"></script>
+</body>
+
+</html>
