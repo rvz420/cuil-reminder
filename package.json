@@ -11,6 +11,6 @@
   "dependencies": {
     "electron": "^2.0.1",
     "mustache": "^2.3.0",
-    "papaparse": "^4.4.0"
+    "papaparse": "^5.2.0"
   }
 }
