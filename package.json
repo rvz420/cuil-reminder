@@ -9,7 +9,7 @@
   "author": "Rodrigo Vazquez",
   "license": "MIT",
   "dependencies": {
-    "electron": "^2.0.1",
+    "electron": "^11.5.0",
     "mustache": "^2.3.0",
     "papaparse": "^4.4.0"
   }
